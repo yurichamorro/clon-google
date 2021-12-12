@@ -1,0 +1,98 @@
+body {
+    position: absolute;
+    width: 900px;
+    border: 10px solid rgb(107, 107, 116);
+    height: 800px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 650px;
+    margin-right: 50px;
+    color: #000000de;
+    font-size: 15px
+}
+
+span {
+    color: black;
+    text-decoration: none;
+}
+
+.gogle img {
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 209px;
+
+}
+
+#inputWrapper {
+    position: relative;
+    top: 170.99px;
+    align-items: center;
+    border: 1px solid rgb(122, 171, 219);
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+    border-left-style: none;
+    left: 293px;
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 400px;
+    object-fit: contain;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC
+    )no-repeat;
+    background-size: 5%;
+    background-position: right;
+    
+}
+/*esto me ayuda a eliminar el borde del input cuando esta activo*/
+#inputWrapper:focus{
+    outline: none;
+}
+
+.buscador {
+    position: relative;
+    top: 201px;
+    left: 270px;
+    border: 1px solid rgb(122, 171, 219);
+    border-radius: 10px 0px 0px 10px;
+    border-right-style: none;
+    padding: 5px;
+    width: 15px;
+
+
+}
+
+.search-button {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 340px;
+    top: 250px;
+
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(162, 145, 177);
+    height: 70px;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    
+}
+.footer1{
+ position: relative;
+ top: 25px;
+ left: 20px;
+ font-size: 16px;
+  
+}
+.footer2{
+    position: relative;
+    left: 600px;
+    top: 6px;
+
+}
